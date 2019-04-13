@@ -17,7 +17,7 @@ body{
 
 header{
     background: whitesmoke;
-    border-bottom: .5px solid gray;
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px aquamarine;
 }
 
 header a {
@@ -67,7 +67,7 @@ header a:hover{
     margin-top: 50px;
     width: 860px;
     padding: 20px;
-    border: solid 0.5px gray;
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px#000000;
 
 }
 
@@ -89,11 +89,12 @@ p{
 }
 
 footer{
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px aquamarine;
     clear: both;
     width: 100%;
     text-align: center;
-    background: grey;
-    margin-top: 25px;
+    background: whitesmoke;
+    margin-top: 35px;
     padding: 15px;
     border: 1px solid black;
 }
