@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-image: url("backgroundv2.jpg");
+    background-size: 1440px 1000px;
+    display: compact;
+    font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    background: black;
+}
+
+.jumbotron{
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px#000000;
+    float: left;
+}
+
+img{
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px#000000;
+}
+
+
+
