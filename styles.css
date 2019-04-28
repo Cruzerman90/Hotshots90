@@ -18,12 +18,12 @@ body {
 
   #won {
     color: rgb(14, 231, 50);
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #lost {
     color: red;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #attempts {
@@ -33,9 +33,9 @@ body {
 
   #playerGuess {
     color: blue;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
