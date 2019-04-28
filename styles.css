@@ -3,7 +3,7 @@ body {
     align-content: center;      
     color: whitesmoke;
     text-shadow: 2px 1px #FF0000;;     
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-align:center;
     vertical-align:center;
@@ -37,5 +37,5 @@ body {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
