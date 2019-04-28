@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, 'Times New Roman', serif, cursive;
+    align-content: center;      
+    color: whitesmoke;
+    text-shadow: 2px 1px #FF0000;;     
+    font-size: 25px;
+    font-weight: bold;
+    text-align:center;
+    vertical-align:center;
+    line-height: 36px;  
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+  .container {
+      text-align: center;
+
+}
+
+  #won {
+    color: rgb(14, 231, 50);
+    font-size: 25px;
+  }
+
+  #lost {
+    color: red;
+    font-size: 25px;
+  }
+
+  #attempts {
+    color: green;
+    font-size: 20px;
+  }
+
+  #playerGuess {
+    color: blue;
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
