@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="jewelGame.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+  src="https://code.jquery.com/jquery-3.4.0.slim.js"
+  integrity="sha256-milezx5lakrZu0OP9b2QWFy1ft/UEUK6NH1Jqz8hUhQ="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Crystal Collector</h1>
+        </div>
+        <div class="instructions">
+            <p>You will be given a random number at the start of the game.
+            <br><br>
+            There are four crystals below. By clicking on a crystal you will add a specific number of points to your total score.
+            <br><br>
+            You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+             <br><br>
+            The value of each crystal is revealed in the last box at the bottom when you click on it.
+            <br><br>
+            The game will automatically change the vaule of each crystal when the game starts over after you win or lose.</p>
+        
+        </div>
+        <div class="random">
+            <p>Match this nubmber:</p>
+            <span id="randomNumber"></span>
+        </div>
+        <div class="scoreboard">
+            <p>Wins: <span id="numWins"></span></p>
+            <p>Losses: <span id="numLosses"></span></p>
+            </h2>
+        </div>
+        <div class="crystals">
+            <img id="blue" src="blue1.jpg" alt="blue">
+            <img id="green" src="green.jpg" alt="green">
+            <img id="pink" src="pink.jpg" alt="pink">
+            <img id="red" src="red.jpg" alt="yellow">
+        </div>
+        <div class="userTotal">
+            <p>Your total score is:</p>
+            <span id="totalScore"></span>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="jewelGame.js"></script>
+
+</html>

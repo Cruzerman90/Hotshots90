@@ -20,5 +20,6 @@ var userText = document.getElementById("wrong");
 
 // Next, we give JavaScript a function to execute when onkeyup event fires.
 document.onkeyup = function(event) {
-  
+  var letterGuessed = String.fromCharCode(event.keyCode).toLowerCase();
+  console.log(letterGuessed);
 };
